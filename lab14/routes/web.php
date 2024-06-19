@@ -20,4 +20,4 @@ Route::delete('/products',[ProductController::class,'deleteMultipleProducts']);
 Route::get('/products/join', [ProductController::class, 'joinQueries']);
 Route::get('/products/groupby',[ProductController::class,'groupByHaving']);
 
-require __DIR__.'/auth.php';
+//require __DIR__.'/auth.php';
